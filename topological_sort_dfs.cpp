@@ -1,3 +1,5 @@
+//Topological Sort : It is Linear ordering of vertices such that if there is an edge from u->v then u should appear before v in that ordering.
+//topological sort is only possible in DAG(directed acyclic graph)
 #include <bits/stdc++.h>
 using namespace std;
 void  topological_sort(int node,vector<int> adj[],vector<int> &visited,stack<int> &st)
