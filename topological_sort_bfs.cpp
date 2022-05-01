@@ -1,3 +1,7 @@
+//1: Calculate indegree of every node
+//2:check if a nodes indegree is 0,insert it in a queue
+//3:now apply regular bfs
+
 #include <bits/stdc++.h>
 using namespace std;
 vector<int> topobfs(int n,vector<int> adj[])
