@@ -1,5 +1,6 @@
 //shortest path from source to all other nodes
 //done by using breadth first search
+//distance between everynode is 1 unit
 #include <bits/stdc++.h>
 using namespace std;
 vector<int> bfs(int n,vector<int> adj[],int src)
